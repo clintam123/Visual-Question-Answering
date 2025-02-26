@@ -17,5 +17,6 @@ Trong đó, ba thành phần chính gồm:
 2. **Features Fusion**: Với hai đặc trưng từ hai nhánh dữ liệu, áp dụng kỹ thuật kết hợp cả hai loại thông tin này về một vector biểu diễn duy nhất.
 3. **Answer Generator**: Đưa vector đặc trưng kết hợp vào mạng neural để dự đoán câu trả lời.
 
+Dataset ta sẽ sử dụng là [VQA Coco dataset](https://visualqa.org/) 
 Dựa theo kiến trúc trên, ta sẽ cài đặt hai phiên bản gồm phiên bản dựa trên các mạng CNN+LSTM và phiên bản dựa trên các mạng thuộc họ transformer, cụ thể là ViT+RoBERTa.
 Ngoài ra, chúng ta cũng sẽ tìm hiểu hướng tiếp cận đang rất được quan tâm hiện nay, đó là sử dụng mô hình lớn. Cụ thể hơn, ta sẽ cài đặt mô hình lớn để có thể giải bài toán VQA trong project này.
