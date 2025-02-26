@@ -7,8 +7,8 @@
 
 Theo đó, Input và Output của một mô hình VQA sẽ có dạng như sau:
 
-• **Input**: Một cặp hình ảnh và câu hỏi bằng ngôn ngữ tự nhiên.
-• **Output**: Câu trả lời cho câu hỏi về hình ảnh.
+- **Input**: Một cặp hình ảnh và câu hỏi bằng ngôn ngữ tự nhiên.
+- **Output**: Câu trả lời cho câu hỏi về hình ảnh.
 
 Ở project này, chúng ta sẽ cùng tìm hiểu và xây dựng một mô hình VQA với hướng tiếp cận cơ bản cũng như truyền thống của bài toán này. Theo đó, kiến trúc tổng quan của mô hình mà ta xây dựng như sau:
 ![alt text](images/image-1.png)
